@@ -40,7 +40,7 @@ services:
       context: ./frontend
       args:
         # !!! Doi thanh IP/domain that cua server ban truoc khi build !!!
-        VITE_API_URL: http://localhost:8080/api
+        VITE_API_URL: http://54.255.234.255:8080/api
     container_name: tn_frontend
     restart: unless-stopped
     depends_on:
